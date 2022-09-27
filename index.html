@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--#UTC 8 can handle unicode as well see &# item below which is the html code for an emoji in unicode-->
+    <title> &#128152; The Cheese Site </title>  <!--names tab on chrome-->
+    <meta name="description" content="This site contains Amie's personal projects">
+</head>
+
+<body>
+<table cellspacing="20">
+    <tr>
+        <td>
+            <img src="./images/cheese-200x200.jpg" alt="cheese profile pic">
+        </td>
+        <td>
+            <h1>Cheesey Cheese</h1>
+            <p><em>Cheese <strong>enthusiast</strong></em></p>
+            <p>I am an iOS and web developer</p>
+        </td>
+    </tr>
+</table>
+<hr size="3" noshade="">
+<h3>Education</h3>
+<p><strong>Cheese University</strong> - BBA, Cheese Management</p>
+<hr size="1" noshade="">
+<h3>Work Experience</h3>
+<table cellspacing="10">
+    <thead> <!-- googd to isolate table into thead, tbody, tfoot so you can isolate deign using css later -->
+        <tr> <!--table row for table header -->
+            <th>Years</th> <!--table header-->
+            <th>Experience</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> <!--first row, there are no tc for "table column" -->
+            <td>2015 - 2018</td> <!--table data or cell data-->
+            <td>Cheese Lover</td>
+        </tr>
+        <tr>
+            <td>2018 - present</td>
+            <td>Super Cheese Lover</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total Experience:</td>
+            <td>8</td>
+        </tr>
+    </tfoot>
+</table>
+<h3>Skills</h3>
+<table cellspacing="5"> <!-- confusing table within table structure, html not good for styling -->
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>Python</td>
+                    <td>👍👍👍</td>
+                </tr>
+                <tr>
+                    <td>Cheese Computing</td>
+                    <td>👍👍👍👍</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>Cheeseboarding</td>
+                    <td>👍👍</td>
+                </tr>
+                <tr>
+                    <td>Doodling</td>
+                    <td>👍👍👍</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<hr size="1" noshade="">
+<a href="hobbies.html">My Hobbies</a> <!--a href anchor can make seaprate pages -->
+<a href="contact.html">Contact Me</a>
+</body>
+</html>
